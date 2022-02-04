@@ -74,12 +74,11 @@
 }
   @media (max-width: 1245px){
     .loo{
-      position: relative;
-      background-color: rgb(197, 197, 231);
-      
+    display: none;  
     }
     .imgloli{
-      max-width: 0px;
+      display: none;
+      
     }
   }
   @media (max-width:1000px){
