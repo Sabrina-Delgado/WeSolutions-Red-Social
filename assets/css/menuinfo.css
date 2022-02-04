@@ -1,0 +1,77 @@
+.yadi{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    background: #74a8d8;
+}
+.container-fluid{
+background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/2254545-lilas-pastel-roxo-cor-aquarela-textura-fundo-gr%C3%A1tis-foto.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+
+margin-top: 0px;
+width: 100%;
+height: 90%;
+
+}
+
+body{
+    margin-top: 0px;
+    background: #74a8d8;
+}
+
+
+
+.nav-item{
+ background: #c1fbff;
+box-shadow: 0 0 10px #8febf1, 0 0 40px
+#84e2e9;
+transition-delay: 0s;
+margin: 40px;
+margin-left: 850px;
+}
+
+.alert{
+    background: #c1fbff;
+    box-shadow: 0 0 10px #8febf1, 0 0 40px
+    #84e2e9;
+    transition-delay: 0s;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+.card-body{
+    background: #ffffff;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+   margin-right: 5px;
+}
+
+.btn-primary{
+    background-color: rgb(213, 142, 235);
+    box-shadow: 0 0 10px #ebc3f3, 0 0 20px
+    #e4a9f0;
+}
+
+.wesolutions{
+    width: 30%;
+}
+@media (max-width: 770px){
+    .wesolutions{
+        width: 60%;
+    }
+}
+
+
+.salir{
+    background-color: rgb(58, 61, 204)
+}
+
+.salir:hover{
+    background-color: rgb(77, 79, 219);
+}
+

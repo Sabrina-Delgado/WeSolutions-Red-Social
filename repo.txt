@@ -1,0 +1,12 @@
+Proyecto Red Social
+    - repo: 
+    https://github.com/Sabrina-Delgado/Red-Social.git
+    
+    - tokem:
+    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
+
+    - git:
+    git remote add origin https://SabrinaDelgado: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@github.com/Sabrina-Delgado/Red-Social.git
+
+Solucion : Token no existe
+hola disculpen, les queria comentar que pude solucionar mi errosr de github, almenos en mi caso el error se basaba en que el tokem se habia borrado , y me paso con este ultimo poryecto de la unidad 4 tambien, solo paso 1 hora y el token ya no estaba, verifique  bien en ponerle NO EXPIRATION y aun así seguía pasando, lo que hice fue usar el repositorio sin token, para no tener problemas otra vez, o al menos hasta que encuentre otra alternativa con respecto la token, Y lo hice usando en git bash el comando:  git remote set-url origin ustedes le tendrían que poner el link de su repo después del comando, luego: git remote -v  y ya esta, le agregan un commit si no lo tienen o si lo tiene diferente le dan gti push y ya esta, a veces saldrá la verificación en una ventanita, denle en la que sale por predeterminado "In your browser"  y listo , se suben tus archivos. Tambien otro error que podria saltar es que son distintos los archivos que vas a subir de los que estan, te aconsejo poner todos tus archivos en tra capeta para guardarlos, y hacer un git pull para que se copie todo lo del repositorio, luego eliminas esas y pegas tu carpetas guardadas, le haces un commit ,un push y ya esta. Lo malo de hacer esto es que cualquiera con el enlace de tu repo puede subir sus archivos y corres el riesgo, para eso servía el token, pero pro ahora lo uso para luego no tener problemas, cuando sepa como dejara que el token se autodestruya en menos de una hora lo volveré hacer con el token incorporado, espero que les haya servido me guie de esta pagina: https://stackoverflow.com/questions/10904339/github-fatal-remote-origin-already-exists :D
